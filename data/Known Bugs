@@ -1,0 +1,5 @@
+<P><STRONG>Known Bugs</STRONG></P>
+<UL>
+<LI>Netscape is not showing the template file in production server (but it does on dev box in the browser!) 
+<LI>There was a comment in here that I wanted to keep from the guy who hacked this in less than a minute but I lost it in a sync up with the dev box that said \"Insecure\" I think the problem has been fixed. (but I still wanted to leave the comment)
+<LI>Still Have URL bugs... Once again it is possible to change the content of pages ... I\'m workin on it </LI></UL>

@@ -1,0 +1,23 @@
+<p><span style=\"font-size: larger;\"><strong>How to Install</strong></span></p>
+<p><span style=\"font-size: larger;\"> <strong>Requirements</strong>  </span></p>
+<ul>
+    <li><span style=\"font-size: larger;\">I have made a considerable attempt to make this a simple to use and install system so that I can use it in many places an ways  </span></li>
+    <li><span style=\"font-size: larger;\">A web server  </span></li>
+    <li><span style=\"font-size: larger;\">This is developed in </span><a target=\"_blank\" href=\"http://www.php.net\"><span style=\"font-size: larger;\">PHP</span></a><span style=\"font-size: larger;\"> so that is needed (I am not sure how old it will work with just yet)</span></li>
+</ul>
+<p><span style=\"font-size: larger;\"> <strong>Install</strong> </span></p>
+<ul>
+    <li><span style=\"font-size: larger;\">tar -xzvf guiki.tar.gz in your web directory  </span></li>
+    <li><span style=\"font-size: larger;\">find guiki/ -type f -exec chmod 644 {} \\;  </span></li>
+    <li><span style=\"font-size: larger;\">find guiki/ -type d -exec chmod 755 {} \\;  </span></li>
+    <li><span style=\"font-size: larger;\">chown -R WebServerUser:WebServerGroup guiki/  </span></li>
+    <li><span style=\"font-size: larger;\">open your browser to http://yourservername.com/pathToGuiki/  </span></li>
+    <li><span style=\"font-size: larger;\">Edit the config.php file  </span>
+    <ul>
+        <li><span style=\"font-size: larger;\">Set the theme that you want (look in the themes directory)  </span></li>
+        <li><span style=\"font-size: larger;\">Set the Default page name to what you want it to be</span></li>
+    </ul>
+    </li>
+    <li><span style=\"font-size: larger;\">If you delete all of the files in the data directory you can start out with brand new content </span></li>
+</ul>
+<p><span style=\"font-size: larger;\"> Please report all errors and stupid things that I do to </span><a href=\"mailto:lankford@guiki.com\"><span style=\"font-size: larger;\">lankford@guiki.com</span></a></p>

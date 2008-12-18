@@ -1,0 +1,3 @@
+<P>&nbsp;</P>
+<UL>
+<LI><STRONG>2/2/2004</STRONG> <FONT color=#cc0000><STRONG>FIXED</STRONG></FONT> When saving a page that did not exist the page comes back to the edit page after it creates the content file (Pushing the save button again saves it again and goes back to view mode)</LI></UL>

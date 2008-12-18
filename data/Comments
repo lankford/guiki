@@ -1,0 +1,22 @@
+<P><STRONG>What folks are saying and asking </STRONG>(Wow they are starting to stack up, May need forum soon)</P>
+<P>
+<HR>
+
+<P></P>
+<P>How about using XML/XSLT?&nbsp; XML would be great for storing pages, fixed data, etc. (along with PHP).&nbsp;<BR><BR><!--StartFragment -->I meant to add the Smarty Template engine as well... <BR><BR>Forrest </P>
+<P><!--StartFragment -->&nbsp;Hmm, you are the first person to send me an email about this project and it is a real comment to boot! <BR><BR>Lets see, where might I use XML/XSLT for the config or the data? <BR><BR>I thought about smarty, I am very excited about it but there are some systems out there do not&nbsp; support smarty . Do you think this might be somthing I should trade off ? With out smarty I run in more places / with smarty more features. <BR><BR>Thanks for the Ideas <BR>Matt <BR></P>
+<P>
+<P></P><!--StartFragment -->
+<HR>
+
+<P></P>
+<P></P>
+<P></P>
+<P>I just looked at Guicki. You said that you hadn\'t seen anything like this before, but I have seen several wiki\'s that implement HTMLArea in them. Probably one of the niceset is an implementation under Wakka: <A href=\"http://www.nivel0.net/WakkaHtmlArea\">http://www.nivel0.net/WakkaHtmlArea</A> Why does your site not include revisions / differences / etc. that are very much standard Wiki functions? What about RSS feeds? </P>
+<P>George</P>
+<P><!--StartFragment -->&nbsp;Howdy George,<BR><BR>Well, I guess I did not need a wiki type app but more of an easy content mngmnt system for the users on my internal network and decided to GPL it. I have seen other wiki\'s that use HTMLArea but they are still using wiki markup and quite frankly this is too complex for the users in my network that think shutting the monitor off and back on is rebooting. </P>
+<P>Matt</P>
+<P>
+<HR>
+
+<P><!--StartFragment -->&nbsp;</P>

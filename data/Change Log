@@ -1,0 +1,8 @@
+<P><STRONG>Change Log</STRONG></P>
+<UL>
+<LI><STRONG>2/6/2004 <FONT color=#cc0000>FIXED BUG</FONT>&nbsp;NASTY </STRONG>bug where someone could delete a page without authenticating [[Chief Security Officer]] 
+<LI><STRONG>2/6/2004 <FONT color=#cc0000>FIXED BUG</FONT> NASTY&nbsp;</STRONG>Cross Site Scripting&nbsp;BUG someone could see your config data and write arbitrary files to your data directory Thx to [[Chief Security Officer]] 
+<LI><STRONG>2/5/2004 <FONT color=#cc0000>FIXED BUG</FONT> NASTY</STRONG> URL BUG someone could see your config data and write arbitrary files to your system (Like a new index.php) 
+<LI><STRONG>2/2/2004 <FONT color=#cc0000>FIXED BUG</FONT></STRONG> Greedy matching of the [ [ ] ] Characters 
+<LI><STRONG>2/2/2004</STRONG> <FONT color=#cc0000><STRONG>FIXED BUG</STRONG></FONT> When saving a page that did not exist the page comes back to the edit page after it creates the content file 
+<LI><STRONG>2/2/2004</STRONG> <STRONG><FONT color=#009900>ADDED</FONT></STRONG> Authentication for edit</LI></UL>

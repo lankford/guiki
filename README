@@ -1,11 +1,10 @@
+Guiki (Graphical Wiki)
+
 AUTHOR: Matt Lankford
 
 WEBSITE: www.guiki.com
 
-Guiki (Graphical Wiki)
-
-LICENSE:
-GPL
+LICENSE: GPL
 
 WHAT:
 Guiki is my attempt to scratch my own itch for a simple content management system.
@@ -15,6 +14,11 @@ It is very easy to install and use and does not have a lot of the fluff other wi
 
 REQUIREMENTS:
 A webserver and PHP 5.x and above
+
+FEATURES:
+Easy to create websites for normal people
+Easy to add content
+Great for intranets / documentation of company functions
 
 INSTALL:
 

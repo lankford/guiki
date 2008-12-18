@@ -1,15 +1,23 @@
-NOT WORKING ATM --- I AM WORKING ON GETTING IT IMPORTED!!!
-
-
 Guiki (Graphical Wiki)
 
+WHAT:
 Guiki is my attempt to scratch my own itch for a simple content management system.
 
+WHY:
 It is very easy to install and use and does not have a lot of the fluff other wiki systems and content management systems include.
 
-I am just getting started at github and my code has never been exposed via SCM so it is not pretty at the moment....
+REQUIREMENTS:
+A webserver and PHP 5.x and above
 
-I will work on that...
+INSTALL:
+
+Using GIT: git clone git://github.com/lankford/guiki.git
+
+or just download from github.com/lankford/guiki, and unzip
+
+SETUP:
+
+Change the user and pass and site name in the index.php
 
 Enjoy,
 

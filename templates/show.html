@@ -1,0 +1,28 @@
+<xml version="1.0" encoding="UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{PAGE}</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<div id="header">
+  <h1>{PAGE}</h1>
+  <div id="search">
+    <form method="post" action="index.php?MODE=SEARCH">
+      <input type="text" name="SEARCH" size="30">&nbsp;
+      <input type="submit" value="Search" />
+    </form>
+  </div>
+</div>
+<div id='menu'>
+  <a href="index.php">Home</a> |
+  <a href="?MODE=EDIT&PAGE={PAGE}">Edit</a> |
+  <a href="?MODE=LOGOUT&PAGE={PAGE}">Logout</a> |
+  <a href="index.php?MODE=DELETE&PAGE={PAGE}"><font color='red'>Delete</font></a>
+</div>
+<div id="error">{ERROR}</div>
+<div id="flash">{FLASH}</div>
+<div id="content">{CONTENT}</div>
+</body>
+</html>

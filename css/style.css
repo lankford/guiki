@@ -1,0 +1,40 @@
+
+body {
+	font-family: Verdana;
+	font-size: 14px;
+	color: black;
+	margin: 0;
+}
+a, a:link, a:active, a:visited, a:focus, a:hover { 
+	text-decoration: none;
+	color: #009900;
+}
+#header {
+	background-color: black;
+	color: white;
+	margin: 0px;
+	height: 40px;
+}
+#header h1 {
+	position: absolute;
+	top: -14px;
+	left: 7px;
+}
+#search {
+	position: absolute;
+	top: 9px;
+	right: 7px;
+}
+#menu {
+	padding: 7px;
+	font-weight: bold;
+}
+#content {
+	padding: 10px;
+}
+#flash p{
+	background-color: #FFFFCC;
+}
+#error p{
+	background-color: #F79AA7;
+}

@@ -1,0 +1,40 @@
+<xml version="1.0" encoding="UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Editing {PAGE}</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="fckeditor/fckeditor.js"></script>
+<script type="text/javascript">
+
+window.onload = function()
+{
+	var oFCKeditor = new FCKeditor( 'CONTENT' ) ;
+	oFCKeditor.BasePath	= 'fckeditor/' ;
+	oFCKeditor.Height	= (window.innerHeight - 125);
+	oFCKeditor.ReplaceTextarea() ;
+}
+</script>
+</head>
+<body>
+<div id="header">
+  <h1>EDIT {PAGE}</h1>
+  <div id="search">
+    <form method="post" action="index.php?MODE=SEARCH">
+      <input type="text" name="SEARCH" size="30">&nbsp;
+      <input type="submit" value="Search" />
+    </form>
+  </div>
+</div>
+<div id='menu'>
+  <a href="index.php">Home</a> |
+  <a href="index.php?MODE=SHOW&PAGE={PAGE}"><font color='red'>Cancel</font></a> |
+  Create a new page by putting it's name in [[Double Brackets]]
+</div>
+<form method="post" action="index.php?MODE=SAVE&PAGE={PAGE}">
+  Description : <input type='text' name='keywords'/>
+  Keywords : <input type='text' name='keywords'/>
+  <textarea name="CONTENT" rows="200" cols="80" style='height:500px;'>{CONTENT}</textarea>
+</form>
+</body>
+</html>

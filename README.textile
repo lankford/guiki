@@ -1,7 +1,9 @@
 h1. Guiki (Graphical Wiki)
 
 AUTHOR: Matt Lankford
+
 WEBSITE: Guiki.com
+
 LICENSE: GPL
 
 h2. About:

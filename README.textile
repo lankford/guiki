@@ -1,24 +1,14 @@
 h1. Guiki (Graphical Wiki)
 
-h2. AUTHOR: Matt Lankford
+AUTHOR: Matt Lankford
+WEBSITE: Guiki.com
+LICENSE: GPL
 
-h2. WEBSITE: www.guiki.com
+h2. About:
 
-h2. LICENSE: GPL
+Guiki is my attempt to scratch my own itch for a simple content management system. It is very easy to install and use and does not have a lot of the fluff other wiki systems and content management systems include.
 
-h2. WHAT:
-
-Guiki is my attempt to scratch my own itch for a simple content management system.
-
-h2. WHY:
-
-It is very easy to install and use and does not have a lot of the fluff other wiki systems and content management systems include.
-
-h2. REQUIREMENTS:
-
-A webserver and PHP 5.x and above
-
-h2. FEATURES:
+h2. Features:
 
 * Very simple
 * Easy to create websites for normal people
@@ -26,17 +16,18 @@ h2. FEATURES:
 * Great for intranets / documentation of company functions
 * Search function
 
+h2. Requirements:
+
+A webserver and PHP 5.x and above
+
 h2. INSTALL:
 
 Using GIT: git clone git://github.com/lankford/guiki.git
 
 or just download from github.com/lankford/guiki, and unzip
 
-h2. SETUP:
+h2. Setup:
 
-Change the user and pass and site name in the index.php
+Change the user, pass and site name in the index.php
 
-Enjoy,
-
-Matt Lankford
-ThePartTimeCTO.com
+Make sure the data directory has write permission from the web server.

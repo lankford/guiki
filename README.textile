@@ -20,7 +20,7 @@ h2. Requirements:
 
 A webserver and PHP 5.x and above
 
-h2. INSTALL:
+h2. Install:
 
 Using GIT: git clone git://github.com/lankford/guiki.git
 

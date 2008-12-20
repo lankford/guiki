@@ -18,7 +18,7 @@ h2. REQUIREMENTS:
 
 A webserver and PHP 5.x and above
 
-h2 FEATURES:
+h2. FEATURES:
 
 Very simple
 Easy to create websites for normal people
